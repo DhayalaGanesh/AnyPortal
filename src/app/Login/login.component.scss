@@ -1,0 +1,25 @@
+.login-header{
+    color: orange;
+}
+
+.login{
+    text-align: center;
+}
+
+.login-form{
+    text-align: center;
+}
+
+.login-btn{
+    background-color: orange;
+}
+
+.buttons{
+    text-align: center;
+    .forgot-password{
+        display: inline;
+    }
+    .forgot-password:hover{
+        cursor: pointer;
+    }
+}

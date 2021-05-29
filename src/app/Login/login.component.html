@@ -1,0 +1,29 @@
+<h1 class="login-header pt-5">
+    Welcome to Login Portal
+  </h1>
+  <hr class="pb-4 mb-5">
+  
+  <div style="height: 50px;"></div>
+  
+  <h2 class="login">
+    Login
+  </h2>
+  
+  <form [formGroup]="loginForm" (ngSubmit)="LoginFormSubmit()">
+    <div class="login-form">
+      <div class="input-fields">
+        <input formControlName="Username" type="text" placeholder="Username">
+        <br>
+        <br>
+        <input formControlName="Password" type="text" placeholder="Password">
+      </div>
+      <br>
+      <div class="buttons">
+        <div (click)="forgotPassword()" class="forgot-password">
+          Forgot password?
+        </div>
+      </div>
+      
+      <button class="login-btn btn" type="submit">Login</button>
+    </div>
+  </form>
